@@ -1,0 +1,110 @@
+.App{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+i{
+    cursor: pointer;
+}
+.btn_cart{
+    background-color: transparent;
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    border: none;
+    font-size: 24px;
+    outline: none;right: 20px;
+}
+.show1{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgb(120, 119, 119);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    height: 350px;
+}
+.show1 img{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    object-fit: contain;
+}
+.hide{
+    background: rgb(240, 239, 239);
+    width: 240px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgb(120, 119, 119);
+    border-radius: 5px;
+    padding: 5px;
+}
+.hide img{
+    width: 100%;
+
+}
+.hide .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.product button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.hide{
+    width: 230px;
+}
+.sell{
+    background-color: rgb(230, 126, 126);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.buy{
+    background-color: rgb(38, 135, 38);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-solid{
+    padding: 5px;
+}
+.fa-solid:active{
+    color: rgb(23, 126, 235);
+}
+.nubProduct img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.modal-content{
+    background-color: rgb(243, 199, 199);
+    padding: 20px;
+}
+.nubProduct tr{
+    border-bottom: 1px solid rgb(237, 233, 233);
+}
+.footer_modal{
+    text-align: right;
+}
+.footer_modal button{
+    width: 100px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+.buyNow{
+    background-color: rgb(121, 241, 121);
+}
+.clearCart{
+    background-color: rgb(241, 86, 86);
+}
